@@ -20,17 +20,19 @@ if(isset($_POST['signin']))
 
     
 	 if (is_array($row)){
+     $_SESSION["id"] = $row ['userId'];
+     $_SESSION["name"] = $row ['name'];
      $_SESSION["email"] = $row ['email'];
      $_SESSION["password"] = $row ['password'];
     
-        header("Location:userhomepage.php?email=<?php echo $email?>");
+     header("Location:home.php?email=<?php echo $email?>");
 
 
     }else{
         echo '<script language="javascript">';
         echo 'alert("Invalid username or password!")';
         echo '</script>';
-        echo "<script type='text/javascript'>window.location='userhomepage.php";
+        echo "<script type='text/javascript'>window.location='signin.php";
         echo "'</script>";
     } 
 }

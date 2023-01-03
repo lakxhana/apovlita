@@ -11,7 +11,6 @@ if (mysqli_query($conn, $query)){
     echo 'alert("Success!")';
     echo '</script>';
 	echo "<script type='text/javascript'>window.location='signin.php?";
-	echo $name;
 	echo "'</script>";	
 
 }else{

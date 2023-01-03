@@ -11,7 +11,7 @@
   <nav>
     <div class="menu">
       <div class="logo">
-        <a href="#">Apovlita.</a>
+        <a href="homepagetemplate.php">Apovlita.</a>
       </div>
       <ul>
         <li class="nav-item"><a class="nav-link active" href="homepage.php">Home</a></li>
