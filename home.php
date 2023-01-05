@@ -26,10 +26,10 @@
         <a href="home.php">Apovlita.</a>
       </div>
       <ul>
-        <li class="nav-item"><a class="nav-link active" href="home.php">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Receipts</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Help Center</a></li>
+      <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="profile.php">Profile</a></li>
+        <li class="nav-item"><a class="nav-link" href="withdraw.php">Withdraw</a></li>
+        <li class="nav-item"><a class="nav-link" href="helpcenter.php">Help Center</a></li>
         <li class="nav-item"><a class="nav-link" href="logout.php">Log Out</a></li>
       </ul>
     </div>
