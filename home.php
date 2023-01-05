@@ -7,15 +7,6 @@
     header("Location:signin.php");
   }
 
-  $query = "SELECT * FROM (user 
-              INNER JOIN customer on user.userId = customer.userId)
-              inner join request on customer.custId = request.custId 
-              where user.userid =".$_SESSION['id']."
-              ";
-  $result = mysqli_query($conn, $query);
-  // var_dump($result);
-
-  mysqli_close($conn);
 ?>
 
 <!DOCTYPE html>
@@ -59,7 +50,7 @@
       </a>
       </figure>
       <figure class="figure mx-5">
-      <a href="#" style="text-decoration: none;">
+      <a href="currentRequest.php" style="text-decoration: none;">
       <i class="fas fa-chevron-circle-right fa-2xl" style="color:white;"></i>
         <p class="text-light">
           Current Request

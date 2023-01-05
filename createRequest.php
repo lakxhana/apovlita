@@ -28,8 +28,11 @@ if(isset($_POST['createRequest']))
 		}
 		else
 		{
-			$query =  "INSERT INTO item ('p_type', 'p_model', 'p_brand', 'p_serialNum', 'p_unit') VALUES (".$type[$item].", ".$model[$item].", ".$brand[$item].", ".$serial[$item].", ".$unit[$item].")";
+			$query =  "INSERT INTO item (p_type, p_model, p_brand, p_serialNum, p_unit) VALUES (".$type[$item].", ".$model[$item].", ".$brand[$item].", ".$serial[$item].", ".$unit[$item].")";
 			$result =  mysqli_query($conn, $query);
+
+			$query2 = "INSERT INTO request () VALUES ()";
+
 		}
 		// var_dump($item);
 		// echo $item;
