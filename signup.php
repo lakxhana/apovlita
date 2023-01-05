@@ -54,7 +54,7 @@
         <a href="#">Apovlita.</a>
       </div>
       <ul>
-        <li class="nav-item"><a class="nav-link active" href="homepage.php">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="home.php">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
         <li class="nav-item"><a class="nav-link" href="signin.php">Sign In</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
